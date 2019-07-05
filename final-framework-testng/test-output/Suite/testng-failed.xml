@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Test4(failed)">
+  <test thread-count="5" name="Test7(failed)">
     <classes>
-      <class name="com.training.sanity.tests.ELTC_009_unsubscribe">
+      <class name="com.training.sanity.tests.ELTC_037_Review_Reporting">
         <methods>
           <include name="setUpBeforeClass"/>
-          <include name="Unsubscribe"/>
+          <include name="ReviewReport"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.ELTC_009_unsubscribe -->
+      </class> <!-- com.training.sanity.tests.ELTC_037_Review_Reporting -->
     </classes>
-  </test> <!-- Test4(failed) -->
+  </test> <!-- Test7(failed) -->
+  <test thread-count="5" name="Test10(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_040_add_project">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
+          <include name="AddProject"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.ELTC_040_add_project -->
+    </classes>
+  </test> <!-- Test10(failed) -->
 </suite> <!-- Failed suite [Suite] -->

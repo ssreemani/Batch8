@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name = "Sample test Suite">
-   <test name = "Sample test">
-      <classes>
-         <class name = "com.training.sanity.tests.LoginTests" />
-      </classes>
-   </test>
-</suite>	
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+    <classes>
+      <class name="com.training.sanity.tests.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_007_addcourse"/>
+    </classes>
+  </test> <!-- Test -->
+ <test name="Test3">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_008_coursedescription"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test4">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_009_unsubscribe"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test5">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_010_listofcourse"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test6">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_036_review_test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test7">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_037_Review_Reporting"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test8">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_038_CreateGroup"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test9">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_039_Generate_Report"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test10">
+    <classes>
+      <class name="com.training.sanity.tests.ELTC_040_add_project"/>
+    </classes>
+  </test> <!-- Test -->
+ </suite> <!-- Suite -->
